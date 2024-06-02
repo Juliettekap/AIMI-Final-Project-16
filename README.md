@@ -9,7 +9,7 @@ This repository builds upon the [provided repository](https://github.com/DIAGNij
 git clone https://github.com/DIAGNijmegen/picai_unet_semi_supervised_gc_algorithm.git
 ```
 In this repository are some additional files that help with working with Snellius.
-- [replace_path_in_overviews.py](https://github.com/Juliettekap/AIMI-Final-Project-16/blob/main/replace_path_in_overviews.py): Special thanks to Group 3 that also worked on the PICAI Challenged and shared this code with us.
+- [replace_path_in_overviews.py](https://github.com/Juliettekap/AIMI-Final-Project-16/blob/main/replace_path_in_overviews.py): Special thanks to Group 13 that also worked on the PICAI Challenge and shared this code with us.
 - [trim_model.py](https://github.com/Juliettekap/AIMI-Final-Project-16/blob/main/trim_model.py): Is there to remove unnecessary information from models that are trained with the baseline code
 - Shell scripts: Those include the scripts that we used to train our models using the template algorithm provided by the DIAG-Nijmegen group.
 - [Juptyter notebook](https://github.com/Juliettekap/AIMI-Final-Project-16/blob/main/DimensionCalc.ipynb): Demonstrates the steps and calculations involved in selecting the region of interest (ROI) for cropping, ensuring that the prostate is accurately targeted within the input MRI images
