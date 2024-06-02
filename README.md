@@ -20,3 +20,8 @@ To get the [PICAI algorithm baseline](https://github.com/DIAGNijmegen/picai_base
 ```bash
 git clone https://github.com/DIAGNijmegen/picai_baseline.git
 ```
+
+To get the same containers as us please,
+1. Move the desired weights from their folder into the weights folder.
+2. Then make sure that your process.py file has the correct image shapes, while processing. (For crop256 weights the correct image shape is [20, 256, 256] while for crop128 weights the image shape should be [20, 128, 128]
+3. Run the build.sh/build.bat script.  
